@@ -75,6 +75,7 @@ int main(){
   }
 
   // process all timesteps
+  auto _bench_start = chrono::steady_clock::now();
   for(int t=1;t<=T;t++){
     unordered_map<long long, int> pos_freq;
     for(Ball &ball:balls){
@@ -85,6 +86,8 @@ int main(){
       ball.direction = calculateNextDirection(ball,pos_freq);
     }
   }
+  auto _bench_end = chrono::steady_clock::now();
+  fprintf(stderr, "TIME %.6f\n", chrono::duration<double>(_bench_end - _bench_start).count());
 
   // print balls final pos and direction
   for(Ball ball:balls){

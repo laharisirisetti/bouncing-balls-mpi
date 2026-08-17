@@ -1,0 +1,13 @@
+case    impl        np  mean       median     min        max        stddev    speedup  efficiency
+large   parallel    1   16.410115  16.98729   15.194729  17.048327  1.052998  0.67     0.67      
+large   parallel    2   7.399332   7.481982   7.139618   7.576395   0.229819  1.486    0.743     
+large   parallel    4   3.473368   3.441228   3.3808     3.598077   0.112148  3.166    0.791     
+large   parallel    8   2.207538   2.293619   2.013766   2.315229   0.168159  4.981    0.623     
+large   sequential  1   10.995151  11.043133  10.857652  11.084669  0.120875  1.0      1.0       
+medium  parallel    1   4.768938   4.77127    4.760346   4.775199   0.007696  0.891    0.891     
+medium  parallel    2   1.984273   1.96215    1.94219    2.048479   0.056493  2.142    1.071     
+medium  parallel    4   1.083468   0.922289   0.911335   1.41678    0.288709  3.922    0.981     
+medium  parallel    8   0.728942   0.727946   0.725547   0.733333   0.003987  5.83     0.729     
+medium  sequential  1   4.249633   4.176576   4.140298   4.432024   0.158994  1.0      1.0       
+
+wrote /mnt/c/Users/lsirisetti/Desktop/Learning/College Projects/Distributed Systems/bouncing-balls-MPI/results/summary.csv
