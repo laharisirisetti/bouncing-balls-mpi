@@ -61,6 +61,7 @@ implementation.
 
 | processes | 1 | 2 | 4 | 8 |
 | --- | --- | --- | --- | --- |
+| runtime | 16.41s | 7.40s | 3.47s | 2.21s |
 | speedup | 0.67× | 1.49× | 3.17× | 4.98× |
 | efficiency | 67% | 74% | 79% | 62% |
 
