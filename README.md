@@ -1,5 +1,6 @@
 # Bouncing Balls (MPI)
 
+[![CI](https://github.com/laharisirisetti/bouncing-balls-mpi/actions/workflows/ci.yml/badge.svg)](https://github.com/laharisirisetti/bouncing-balls-mpi/actions/workflows/ci.yml)
 ![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cplusplus&logoColor=white)
 ![MPI](https://img.shields.io/badge/MPI-OpenMPI-0057B8)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
